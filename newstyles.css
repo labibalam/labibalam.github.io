@@ -1,0 +1,162 @@
+/*Element Changes and Colours*/
+a{
+  color: #40514E;
+  font-family:Montserrat, sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #30E3CB;
+}
+body{
+  background-color: white;
+  color: #40514E;
+  margin:0;
+  text-align: center;
+}
+
+h2{
+  font-family:Montserrat, sans-serif;
+
+}
+h3{
+  font-family:Montserrat,sans-serif;
+
+}
+hr{
+  border: dotted #EAf6f6 8px;
+  border-bottom: none;
+  margin: 75px auto;
+  width: 10%
+}
+p{
+  font-family: Montserrat, sans-serif;
+  font-size: 0.9375rem;
+  font-weight: lighter;
+
+}
+
+/*class changes*/
+.bottom-cloud{
+  position:absolute;
+  left:200px;
+  bottom:250px;
+}
+.bottom-container{
+  background-color: #EAf6f6;
+  padding: 30px 0 20px;
+}
+/*Contact Me button code*/
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #1E62D0);
+   background-image: -moz-linear-gradient(top, #11CDD4, #1E62D0);
+   background-image: -ms-linear-gradient(top, #11CDD4, #1E62D0);
+   background-image: -o-linear-gradient(top, #11CDD4, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #1E62D0);
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Montserrat, sans-serif;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 15px;
+     /*Removed the button shadows. If required, remove this comment code to add
+     them back in
+     -webkit-box-shadow: 1px 1px 20px 0 #000000;
+     -moz-box-shadow: 1px 1px 20px 0 #000000;
+     box-shadow: 1px 1px 20px 0 #000000;
+     text-shadow: 1px 1px 20px #000000;
+     */
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #30E3CB 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+/*End of Button Changes*/
+
+/******** Continued Class Changes ********/
+
+.contact-me-description{
+  width: 30%;
+  margin: 40px auto;
+}
+.copyright{
+  color:#40514E;
+  font-size: 0.75rem;
+}
+.middle-container{
+margin: 30px 0;
+}
+.top-cloud{
+  position:absolute;
+  right:220px;
+  top:60px;
+}
+.top-container{
+  background-color: #E4EFE7;
+  padding-top: 80px;
+  position:relative;
+}
+.topheader{
+  font-family:Sacramento, sans-serif;
+  font-size: 3.75rem;
+  margin: 50px auto 0 auto;
+}
+.topparagraph{
+  font-family:Montserrat, sans-serif;
+  font-size: 1.25rem;
+}
+.webdevskill{
+  text-align: left;
+  margin-left: 20px;
+}
+.webdevskillp{
+width: 80%;
+line-height: 1.67;
+}
+.pythonskill{
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 100px;
+  padding-left: 244px;
+  padding-top: 60px;
+}
+.pythonskillp{
+  width:80%;
+  line-height: 1.67;
+}
+
+/*Image Changes*/
+.profilepicture{
+  border-radius: 30%;
+  margin-top: 50px;
+  width: 18rem;
+}
+.pythonpic{
+  width: 14rem;
+  float: right;
+  margin-left: 4rem;
+}
+.webdevpic{
+  width: 14rem;
+  margin-right: 3rem;
+  float:left;
+
+}
